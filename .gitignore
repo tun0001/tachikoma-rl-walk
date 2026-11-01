@@ -102,3 +102,6 @@ docs/superpowers/
 *.zip
 docs/submission/report.html
 !docs/note/videos/1[345]_terrain_v4_*.gif
+
+# Submission copy with the author's name
+docs/submission/*_PAI*.pdf
