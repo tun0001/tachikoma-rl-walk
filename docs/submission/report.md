@@ -151,7 +151,7 @@ sim-to-real こそ、Physical AI のいちばん面白いところだと考え�
 |---|---|
 | 動画（YouTube） | https://youtu.be/--663VdCJrM （2 分 25 秒、**等倍速**）。各段階の歩行を字幕つきで比較し、最後に完成版（v4）の歩行 |
 | コード（GitHub） | https://github.com/tun0001/tachikoma-rl-walk （環境・報酬・カリキュラム・地形・評価／動画作成スクリプト、完成版のモデル。再現手順は `README.md`。3D モデルは含まない） |
-| `説明資料_PAI最終課題_KobayashiT_2.pdf` | 本レポート |
+| 説明資料（PDF） | 本レポート |
 
 主なファイル（リポジトリの `source/tachikoma_lab/tachikoma_lab/` 以下）：
 
