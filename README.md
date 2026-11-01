@@ -2,7 +2,7 @@
 
 ![完成版：平地をまっすぐ歩く](docs/note/videos/13_terrain_v4_flat.gif)
 
-『攻殻機動隊』のタチコマの 3D モデルを自作し、NVIDIA Isaac Lab と強化学習（PPO）で歩行を学習させたプロジェクトです。
+譲り受けた『攻殻機動隊』のタチコマの 3D モデルを使い、NVIDIA Isaac Lab と強化学習（PPO）で歩行を学習させたプロジェクトです。
 
 タチコマは脚の付け根が横を向いた構造のため、**横歩きはすぐに習得** しました。一方で、**前に歩く** のは難しく、
 報酬設計 → 学習 → 評価 → 原因分析 → 修正 を何度も繰り返しました。このリポジトリには、その全過程のコードと記録を置いています。
@@ -12,7 +12,7 @@
 - 試行錯誤の全記録：[`docs/note/journal.md`](docs/note/journal.md)
 
 > [!NOTE]
-> **タチコマの 3D モデル（URDF・メッシュ・USD）は公開していません**（`assets/` は `.gitignore` 済み）。
+> **タチコマの 3D モデル（URDF・メッシュ・USD）は譲り受けたもののため、公開していません**（`assets/` は `.gitignore` 済み）。
 > コードを動かすには、ご自身のロボットモデルを `assets/usd/tachikoma/tachikoma.usda` に置き、
 > `source/tachikoma_lab/tachikoma_lab/assets/tachikoma.py` の関節名・リンク名を合わせてください。
 
